@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">互联网切换器</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_help">帮助</string>
+    <string name="title_activity_main">互联网切换器</string>
+	<string name="about_info">You\'re using \"Internet Switcher\" application. &lt;br />Turn on/off your WiFi or Mobile internet connection any time you need. &lt;br />Note, that you cannot enable WiFi and Mobile internet at the same time. &lt;br />If your device supports traffic statistics, you will see it below the switches. Note, that not all devices show it properly(for now). Traffic statistics resets after rebooting your phone. &lt;br /> &lt;br /> We\'re going to create also a widget for this app. If you want to see more features in this app and you want to support us, please visit our page &lt;a href="http://rubchick.com/help-us/">http://rubchick.com/help-us/&lt;/a> &lt;br />Thank you for using our projects.</string>
+	
+	<!-- Toasts -->
+	<string name="toast_turn_off_wifi">请关闭无线网络连接</string>
+	<string name="toast_turn_off_mobile">请关闭移动网络</string>
+	
+	
+	<!-- bytes -->
+	<string name="str_bytes">字节</string>
+	<string name="str_kb">KB</string>
+	<string name="str_mb">MB</string>
+	
+	<!-- layout values -->
+	<string name="mobile_network_txt">移动网络</string>
+	<string name="wifi_txt">无线网络连接</string>
+	<string name="mobile_usage_txt">移动流量</string>
+	<string name="wifi_usage_txt">无线网络流量</string>
+	<string name="received_txt">收到: </string>
+	<string name="sent_txt">发送: </string>
+	<string name="scanning_for_networks">扫描网络...</string>
+</resources>

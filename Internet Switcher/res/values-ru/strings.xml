@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Internet Switcher</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_help">О программе</string>
+    <string name="title_activity_main">Internet Switcher</string>
+	<string name="about_info">Спасибо за использование программы \"Internet Switcher\". &lt;br />Вы можете переключать ваш WiFi или мобильный интернет в любое время. &lt;br />Обратите внимание: вы не можете включить одновременно мобильный интернет и wifi &lt;br /> Если ваше устройство  поддерживает возможность сбора статистики трафика, вы увидите это в приложении. Статистика трафика сбрасывается после перезагрузки телефона. &lt;br /></string>
+	
+	<!-- Toasts -->
+	<string name="toast_turn_off_wifi">Пожалуйста, сначала отключите WiFi</string>
+	<string name="toast_turn_off_mobile">Пожалуйста, сначала отключите мобильный интернет</string>
+	
+	
+	<!-- bytes -->
+	<string name="str_bytes">байт</string>
+	<string name="str_kb">КБ</string>
+	<string name="str_mb">МБ</string>
+	
+	<!-- layout values -->
+	<string name="mobile_network_txt">Мобильный интернет</string>
+	<string name="wifi_txt">Wi-Fi</string>
+	<string name="mobile_usage_txt">Трафик мобильного интернета</string>
+	<string name="wifi_usage_txt">WiFi трафик</string>
+	<string name="received_txt">Получено: </string>
+	<string name="sent_txt">Отправлено: </string>
+	<string name="scanning_for_networks">Ищу Wi-Fi сети...</string>
+</resources>

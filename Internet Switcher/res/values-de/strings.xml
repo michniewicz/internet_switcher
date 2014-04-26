@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Internet Umschalter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_help">Hilfe</string>
+    <string name="title_activity_main">Internet Umschalter</string>
+	<string name="about_info">Sie verwenden \"Internet Umschalter \"-Anwendung. &lt;br /> Aktivieren / Deaktivieren Ihres WiFi-oder Mobile Internet-Verbindung jederzeit die Sie benötigen. &lt;br /> Hinweis, dass man nicht aktivieren kann WiFi und mobiles Internet zur gleichen Zeit. &lt;br /> Wenn Ihr Gerät unterstützt Traffic-Statistiken, werden Sie es unter den Schaltern zu sehen. Beachten Sie, dass nicht alle Geräte, die es ordnungsgemäß anzeigen (bis jetzt)​​. Verkehrsstatistik setzt nach dem Neustart des Telefons. &lt;br /> &lt;br /> Wenn Sie mehr Features in dieser App finden möchten und uns unterstützen möchten, besuchen Sie bitte unsere Seite &lt;a href = "http://rubchick.com/help-us/" > http://rubchick.com/help-us/ &lt;/ a> &lt;br /> Danke für die Benutzung unserer Projekte.</string>
+	
+	<!-- Toasts -->
+	<string name="toast_turn_off_wifi">Schalten Sie bitte WiFi</string>
+	<string name="toast_turn_off_mobile">Schalten Sie bitte Mobilfunknetz</string>
+	
+	
+	<!-- bytes -->
+	<string name="str_bytes">bytes</string>
+	<string name="str_kb">KB</string>
+	<string name="str_mb">MB</string>
+	
+	<!-- layout values -->
+	<string name="mobile_network_txt">Mobilfunknetz</string>
+	<string name="wifi_txt">Wi-Fi</string>
+	<string name="mobile_usage_txt">Mobile Traffic</string>
+	<string name="wifi_usage_txt">WiFi Traffic</string>
+	<string name="received_txt">Erhaltene: </string>
+	<string name="sent_txt">Gesendete: </string>
+	<string name="scanning_for_networks">Scannen nach Netzwerken...</string>
+</resources>

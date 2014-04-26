@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Internet Switcher</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Ustawienia</string>
+    <string name="menu_help">Pomoc</string>
+    <string name="title_activity_main">Internet Switcher</string>
+	<string name="about_info">Dziękujemy za korzystanie z Internet Switcher. &lt;br /> Można włączyć WiFi lub mobilnego internetu w każdym momencie. <br /> Proszę pamiętać, że nie może zawierać zarówno mobilnego internetu i wifi &lt;br /> Jeśli telefon obsługuje możliwość zbierania statystyk ruchu, widać go w aplikacji. Statystyki ruchu odblokowany po restarcie. &lt;br /></string>
+	
+	<!-- Toasts -->
+	<string name="toast_turn_off_wifi">Proszę wyłączyć WiFi</string>
+	<string name="toast_turn_off_mobile">Proszę wyłączyć Sieć telefonii komórkowej</string>
+	
+	
+	<!-- bytes -->
+	<string name="str_bytes">bajtów</string>
+	<string name="str_kb">KB</string>
+	<string name="str_mb">MB</string>
+	
+	<!-- layout values -->
+	<string name="mobile_network_txt">Mobile Network</string>
+	<string name="wifi_txt">Wi-Fi</string>
+	<string name="mobile_usage_txt">Mobile Traffic</string>
+	<string name="wifi_usage_txt">WiFi Traffic</string>
+	<string name="received_txt">Otrzymane: </string>
+	<string name="sent_txt">Wysłane: </string>
+	<string name="scanning_for_networks">Skanowanie w sieci...</string>
+</resources>

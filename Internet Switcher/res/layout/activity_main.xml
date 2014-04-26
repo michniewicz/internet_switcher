@@ -1,0 +1,181 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#eaebea" >
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#eaebea"
+	    android:gravity="top"
+	    android:id="@+id/mainLayout"
+	    android:orientation="vertical" >
+	
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:background="@android:color/darker_gray" />
+	
+	    <TextView
+	        android:id="@+id/mobileNetTxt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:paddingTop="5dp"
+	        style="@style/TextShadow"
+	        android:shadowColor="@color/text_shadow"
+	        android:text="@string/mobile_network_txt"
+	        android:textSize="25dp" />
+	
+	    <Button
+	        android:id="@+id/enableMobileBtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="10dp" />
+	
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:background="@android:color/darker_gray" />
+	
+	    <TextView
+	        android:id="@+id/wifiTxt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:paddingTop="5dp"
+	        android:shadowColor="@color/text_shadow"
+	        android:text="@string/wifi_txt"
+	        style="@style/TextShadow"
+	        android:textSize="25dp" />
+	
+	    <Button
+	        android:id="@+id/enableWifiBtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="10dp" />
+	
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:background="@android:color/darker_gray" />
+		<TextView
+	        android:id="@+id/scanResultsProgress"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:visibility="gone"
+	        android:text="@string/scanning_for_networks" />
+		
+		<ProgressBar
+		    android:id="@+id/scanResultsProgressBar"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:visibility="gone" />
+		<LinearLayout
+		    android:id="@+id/scanResultsWrapper"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical">
+		    
+		</LinearLayout>
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:background="@android:color/darker_gray" />
+	    <TextView
+	        android:id="@+id/mobileTrafficTxt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingBottom="10dp"
+	        android:shadowColor="@color/text_shadow"
+	        android:text="@string/mobile_usage_txt" />
+	
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:id="@+id/mobileTrafficReceivedTxt"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/received_txt" />
+	
+	        <TextView
+	            android:id="@+id/mobileTrafficReceivedValue"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="" />
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:id="@+id/mobileTrafficSentTxt"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/sent_txt" />
+	
+	        <TextView
+	            android:id="@+id/mobileTrafficSentValue"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="" />
+	    </LinearLayout>
+	
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:background="@android:color/darker_gray" />
+	
+	    <TextView
+	        android:id="@+id/wifiTrafficTxt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingBottom="10dp"
+	        android:shadowColor="@color/text_shadow"
+	        android:text="@string/wifi_usage_txt" />
+	
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	    <TextView
+	        android:id="@+id/wifiTrafficReceivedTxt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/received_txt" />
+	    <TextView
+	        android:id="@+id/wifiTrafficReceivedValue"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="" />
+	    </LinearLayout>
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	    <TextView
+	        android:id="@+id/wifiTrafficSentTxt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/sent_txt" />
+	        <TextView
+	        android:id="@+id/wifiTrafficSentValue"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="" />
+	    </LinearLayout>
+		    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:background="@android:color/darker_gray" />
+	</LinearLayout>
+</ScrollView>

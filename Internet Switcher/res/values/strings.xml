@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">Internet Switcher</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_help">Help</string>
+    <string name="title_activity_main">Internet Switcher</string>
+	<string name="about_info">You\'re using \"Internet Switcher\" application. &lt;br />Turn on/off your WiFi or Mobile internet connection any time you need. &lt;br />Note, that you cannot enable WiFi and Mobile internet at the same time. &lt;br />If your device supports traffic statistics, you will see it below the switches. Note, that not all devices show it properly(for now). Traffic statistics resets after rebooting your phone. &lt;br /> &lt;br /> We\'re going to create also a widget for this app. If you want to see more features in this app and you want to support us, please visit our page &lt;a href="http://rubchick.com/help-us/">http://rubchick.com/help-us/&lt;/a> &lt;br />Thank you for using our projects.</string>
+	
+	<!-- Toasts -->
+	<string name="toast_turn_off_wifi">Please turn off WiFi first</string>
+	<string name="toast_turn_off_mobile">Please turn off Mobile Network first</string>
+	
+	
+	<!-- bytes -->
+	<string name="str_bytes">bytes</string>
+	<string name="str_kb">KB</string>
+	<string name="str_mb">MB</string>
+	
+	<!-- layout values -->
+	<string name="mobile_network_txt">Mobile Network</string>
+	<string name="wifi_txt">Wi-Fi</string>
+	<string name="mobile_usage_txt">Mobile Traffic Usage</string>
+	<string name="wifi_usage_txt">WiFi Traffic Usage</string>
+	<string name="received_txt">Received: </string>
+	<string name="sent_txt">Sent: </string>
+	<string name="scanning_for_networks">Scanning for networks...</string>
+	
+</resources>
